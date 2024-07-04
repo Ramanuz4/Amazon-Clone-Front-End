@@ -44,8 +44,7 @@
 
 .nav-address {
   cursor: pointer;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 .add-first {
@@ -110,12 +109,31 @@
   cursor: pointer;
 }
 
+/* Language */
+
+.nav-lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.lang-select {
+  height: 30px;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
 /* Sign in */
 
 .nav-signin {
   cursor: pointer;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 span {
@@ -131,8 +149,7 @@ span {
 
 .nav-return {
   cursor: pointer;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 /* Cart */
@@ -142,8 +159,7 @@ span {
 }
 
 .nav-cart {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px;
   cursor: pointer;
   font-size: 0.85rem;
   font-weight: 700;
