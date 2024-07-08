@@ -8,7 +8,7 @@
 /* navbar */
 
 .nav {
-  height: 60px;
+  height: 80px;
   background-color: #0f1111;
   color: white;
   display: flex;
@@ -365,6 +365,8 @@ footer {
   margin-top: 30px;
 }
 
+/* signin */
+
 .recommend {
   margin-bottom: 30px;
   display: flex;
@@ -399,7 +401,7 @@ footer {
 }
 
 .button {
-  background-color: yellow;
+  background-color: rgb(223, 223, 21);
   height: 40px;
   width: 350px;
   border: 1px solid orange;
@@ -410,6 +412,8 @@ footer {
   cursor: pointer;
   font-weight: 600;
 }
+
+/* back to top */
 
 .foot-panel1 {
   background-color: #37475a;
@@ -426,6 +430,8 @@ footer {
   cursor: pointer;
   background-color: #4e5c6e;
 }
+
+/* links */
 
 .foot-panel2 {
   background-color: #222f3d;
@@ -456,4 +462,36 @@ ul a {
 
 ul a:hover {
   text-decoration: underline;
+}
+
+/* footer logo & select */
+
+.foot-panel3 {
+  background-color: #222f3d;
+  border-top: 0.5px solid gray;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo3 {
+  background-image: url("/Assets/amazon_logo.png");
+  background-size: cover;
+  height: 70px;
+  width: 150px;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.footer-panels3-select {
+  width: 200px;
+  text-align: center;
+  height: 40px;
+  margin-left: 10px;
+  background-color: #222f3d;
+  color: rgb(233, 233, 233);
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border-color: rgb(173, 173, 173);
 }
