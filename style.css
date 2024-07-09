@@ -495,3 +495,30 @@ ul a:hover {
   border-radius: 5px;
   border-color: rgb(173, 173, 173);
 }
+
+/* copyright */
+
+.foot-panel4 {
+  background-color: #131a22;
+  color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  font-size: 1.1rem;
+}
+
+.pages a {
+  text-decoration: none;
+  color: #dddddd;
+  margin: 10px;
+}
+
+.pages a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 10px;
+}
